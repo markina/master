@@ -1,0 +1,309 @@
+\documentclass[table]{beamer}
+\usetheme{CambridgeUS}
+
+%\documentclass[handout]{beamer}
+%\usetheme{Pittsburgh}
+%\beamertemplatesolidbackgroundcolor{black!2}
+%\setbeamertemplate{footline}[frame number]
+%\usepackage{pgfpages}
+%%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+%\pgfpagesuselayout{8 on 1}[a4paper,border shrink=5mm]
+
+%%% PACKAGES
+\usepackage{xcolor}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{graphics}
+\usepackage{appendixnumberbeamer}
+%%% BEAMER SETTINGS
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+
+%%% TIKZ SETTINGS
+\usetikzlibrary{fit}
+
+%%% NEW COMMANDS
+\def\pitem{\pause \item}
+\newcommand{\best}{\cellcolor{gray!50!white}}
+
+\DeclareGraphicsRule{.1}{mps}{*}{}
+\DeclareGraphicsRule{.2}{mps}{*}{}
+\DeclareGraphicsRule{.3}{mps}{*}{}
+\DeclareGraphicsRule{.4}{mps}{*}{}
+\DeclareGraphicsRule{.5}{mps}{*}{}
+\DeclareGraphicsRule{.6}{mps}{*}{}
+
+%\includeonlyframes{current} % leaves only the given frames
+
+\title[Недоминирующая сортировка]{Методы анализа и настройки гибридных алгоритмов недоминирующей сортировки}
+%\transduration{20}
+\author[Маргарита Маркина]{Маргарита Маркина}
+\institute[]{Национальный исследовательский университет информационных технологий, механики и оптики}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+%\transduration{20}
+\begin{center}
+{\scriptsize Санкт-Петербургский национальный исследовательский университет \\ информационных технологий, механики и оптики}
+
+\vspace{1cm}
+
+{\scriptsize Факультет информационных технологий и программирования
+
+Кафедра компьютерных технологий}
+
+\vspace{1cm}
+
+\vbox{\large\bfseries
+Методы анализа и настройки гибридных алгоритмов недоминирующей сортировки}
+
+\vspace{1cm}
+
+{\large Маркина Маргарита Анатольевна \\}
+{\large Группа M4239}
+
+\vspace{1cm}
+
+{\large Научный руководитель: к.т.н. доцент кафедры КТ \\}
+{\large М.~B.~Буздалов \\}
+{\large Рецензент: TODO}
+
+\end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\frame[label=title]{\titlepage}
+
+\begin{frame}{Решаемая проблема}
+%\transduration{20}
+\begin{block}{Введение}
+\begin{itemize}
+\item Точка $A=(a_1,...,a_M)$ доминирует точку $B=(b_1,...,b_M)$, \\
+когда $\forall ~ 1 \leq i \leq M : a_i \leq b_i$ и $\exists j : a_j < b_j $.
+\item \textit{Недоминирующая сортировка} множества точек $S$ в $M$-мерном пространстве — это процедура, назначающая всем точкам из $S$ \textit{ранг}.
+\item Все точки, которые не доминируются ни одной точкой из $S$, имеют ранг 0.
+\item Точка имеет ранг $i+1$, если максимальный ранг среди доминирующих  её точек равен $i$.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Решаемая проблема}
+%\transduration{20}
+\begin{block}{Введение}
+На рисунке 3 \textbf{фронта}:
+
+$\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ - ранг 2.
+\begin{center}
+\includegraphics*[height=6cm]{pic/non_dominated_sort.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решаемая проблема}
+%\transduration{20}
+\begin{block}{Актуальность}
+\begin{itemize}
+\item Многокритериальные эволюционные алгоритмы.
+\item Алгоритм востребован в промышленных задачах.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Решаемая проблема}
+%\transduration{20}
+\begin{block}{Цель исследования}
+\begin{itemize}
+\item Выбрать наиболее подходящие алгоритмы.
+\item Приспособить их для гибридизации.
+\item Разработать гибридный алгоритм.
+\item Настроить параметры гибридизации.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Divide and Conquer + ENS-NDT}
+\begin{center}
+%\includegraphics*[height=3cm]{pic/illustrations.6}
+\end{center}
+\begin{itemize}
+\item \textbf{Divide and Conquer.} M. Buzdalov, A. Shalyto. A Provably Asymptotically Fast Version of the Generalized Jensen Algorithm for Non-Dominated Sorting. (2014)
+\item \textbf{ENS-NDT.} P. Gustavsson, A. Syberfeldt. A new algorithm using the non-dominated tree to improve non-dominated sorting. (2017)
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Divide and Conquer}
+\begin{itemize}
+\item Разделяй и властвуй по $N$ и $M$:
+\begin{itemize}
+\item На каждом этапе делим на 3 множества по $k_i$ критерию текущее множество точек.
+\item Если все $k_i$ в одном из подмножеств равны между собой, переходим к $k_{i-1}$.
+\item Запускаемся рекурсивно.
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics*[height=3cm]{pic/fast_pic.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{ENS-NDT}
+\begin{itemize}
+\item Для каждого ранга поддерживается отдельное дерево.
+\item Перебираем точки в лексикографическом порядке:
+\begin{itemize}
+\item Определяем ранг по текущему набору деревьев. 
+\item Добавляем точку в соответствующее рангу дерево. 
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics*[height=3.5cm]{pic/ndtree_original.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{ENS-NDT-ONE}
+\begin{itemize}
+\item Адаптация алгоритма ENS-NDT
+\begin{itemize}
+\item Структура будет состоять из единственного дерева.
+\item В узлах дерева будет содержаться максимальный ранг на поддереве.
+\begin{itemize}
+  \item Оптимизация на этапе определения ранга точки.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics*[height=3.5cm]{pic/ndtree_new.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Асимптотика}
+\begin{itemize}
+\item Divide and Conquer $O(N \log^{M-1}N)$.
+\item ENS-NDT
+\begin{itemize}
+\item $O(N^{1.43})$ для случано сгенерированых точек в гиперкубе.
+\item В худшем случае $O(MN^{2})$.
+\end{itemize}
+\item ENS-NDT-ONE
+\begin{itemize}
+\item $O(MN^{1.58})$ для случано сгенерированых точек в гиперкубе.
+\item В худшем случае $O(MN^{2})$.
+\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Гибридизация}
+  \begin{itemize}
+  \item Запускаем алгоритм Divide and Conquer, согласно некоторыем правилам переключаемся на алгоритм ENS-NDT-ONE.
+  \item Моменты смены алгоритма:
+    \begin{itemize}
+    \item HelperA
+      \begin{itemize}
+      \item Входные данные: множество точек $S$ с предварительными рангами.
+      \item Результат выполнения: множество точек $S$ с обновленными рангами.
+      \end{itemize}
+    \item HelperB  
+      \begin{itemize}
+      \item Входные данные: множество точек $L$ с окончательными рангами и $R$ с предварительными рангами.
+      \item Результат выполнения: множество точек $R$ с обновленными рангами по множеству $L$.
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Настройка параметров гибридного алгоритма}
+\begin{itemize}
+\item Параметры гибридного алгоритма определяют максимальные размеры множеств точек для каждой размерности, при котором алгоритм Divide and Conquer переключается на алгоритм ENS-NDT-ONE.
+\item Параметры основаны на экспериментальных исследованиях скорости работы и являются константами.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Обоснование эффективности гибридного алгоритма}
+\begin{itemize}
+\item Экспериментально получено, что для эффективной работы гибридного алгоритма размер точек в момент переключения на алгоритм ENS-NDT-ONE не должен привышать $10^4 - 2 \cdot 10^4$.
+\item Таким образом, худший случай для алгоритма ENS-NDT-ONE с асимптотикой $O(MN^2)$ незначительно влияет на асимптотику гибридного алгоритма.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Результат}
+%\transduration{20}
+\begin{block}{Сравнение скоростей}
+
+\begin{center}
+\begin{table}[!ht]
+\begin{tabular}{rr|rr|rr|rr|rr}
+$N$&$M$ & \multicolumn{2}{c|}{D\&C} 
+        & \multicolumn{2}{c|}{ENS-NDT} 
+        & \multicolumn{2}{c|}{ENS-NDT-ONE} 
+        & \multicolumn{2}{c}{Hybrid} \\
+& & {\scriptsize cube} & {\scriptsize plane} 
+  & {\scriptsize cube} & {\scriptsize plane} 
+  & {\scriptsize cube} & {\scriptsize plane} 
+  & {\scriptsize cube} & {\scriptsize plane} \\\hline  % hyper
+      $10^6$&$3$  & $2.82$ & $1.60$ & $5.25$ & $1.61$ & $4.25$ & $1.65$ & \best $2.63$ & \best$1.50$\\\hline
+      $10^6$&$5$  & $45.2$ & $33.0$ & $26.3$ & \best$5.22$ & $18.2$ & $5.82$ & \best $17.2$ & $12.8$\\\hline
+      $10^6$&$7$  & $191.5$& $120.2$& $55.4$ & $19.4$ & $46.1$ & \best$18.9$ & \best $26.8$ & $20.1$\\\hline
+      $10^6$&$10$ & $478.8$& $228.6$& $84.8$ & $48.1$ & $104.8$& $55.0$ & \best $41.0$ & \best $33.0$\\\hline
+      $10^6$&$15$ & $587.9$& $337.5$& $135.4$& $76.3$ & $206.8$& $85.4$ & \best $64.5$ & \best $46.0$\\\hline
+\end{tabular}
+\end{table}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Результат}
+%\transduration{20}
+\begin{block}{Выводы}
+\begin{itemize}
+\item Гибридный алгоритм быстрее обоих родительских алгоритмов.
+\item Нам неизвестны публикации результатов сортировки множеств точек размером $10^6$ большой размерности с приемлемым временем выполнения.
+\item Алгоритм адаптирован для многопоточного выполнения, ускорение составляет до $1.8$ на двух потоках и до трех раз на восьми потоках.
+\item По результатом этой работы была подготовлена для публикации статья на конференцию на PPSN $2018$, и мы ждем рецензий. 
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\begin{center}
+Спасибо за внимание!
+\end{center}
+\end{frame}
+
+\appendix
+
+\begin{frame}{Дополнительные материалы}
+Ссылка на репозиторий: https://github.com/mbuzdalov/non-dominated-sorting/releases/tag/v0.1
+\end{frame}
+
+\end{document}
