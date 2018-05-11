@@ -71,7 +71,8 @@
 
 {\large Научный руководитель: к.т.н., доцент кафедры КТ \\}
 {\large М.~B.~Буздалов \\}
-% {\large Рецензент: TODO}
+% {\large Рецензент: TODO \\ }
+{\large Рецензент: Ю.~В.~Коваленко \\}
 
 \end{center}
 \end{frame}
@@ -79,7 +80,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\frame[label=title]{\titlepage}
 
-\begin{frame}{Решаемая проблема}
+\begin{frame}{Решаемая задача}
 %\transduration{20}
 \begin{block}{Введение}
 \begin{itemize}
@@ -93,7 +94,7 @@
 \end{frame}
 
 
-\begin{frame}{Решаемая проблема}
+\begin{frame}{Решаемая задача}
 %\transduration{20}
 \begin{block}{Введение}
 На рисунке 3 \textbf{фронта}:
@@ -105,7 +106,7 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{block}
 \end{frame}
 
-\begin{frame}{Решаемая проблема}
+\begin{frame}{Решаемая задача}
 %\transduration{20}
 \begin{block}{Актуальность}
 \begin{itemize}
@@ -116,20 +117,20 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{frame}
 
 
-\begin{frame}{Решаемая проблема}
+\begin{frame}{Решаемая задача}
 %\transduration{20}
 \begin{block}{Цель исследования}
 \begin{itemize}
 \item Выбрать наиболее подходящие алгоритмы.
-\item Приспособить их для гибридизации.
+\item Приспособить их для создани гибридного алгоритма.
 \item Разработать гибридный алгоритм.
-\item Настроить параметры гибридизации.
+\item Настроить параметры для эффективной работы.
 \end{itemize}
 \end{block}
 \end{frame}
 
 
-\begin{frame}{Решение}
+\begin{frame}{Анализ существующих алгоритмов}
 %\transduration{20}
 \begin{block}{Divide and Conquer + ENS-NDT}
 \begin{center}
@@ -142,7 +143,7 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{block}
 \end{frame}
 
-\begin{frame}{Решение}
+\begin{frame}{Анализ существующих алгоритмов}
 %\transduration{20}
 \begin{block}{Divide and Conquer}
 \begin{itemize}
@@ -159,7 +160,7 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{block}
 \end{frame}
 
-\begin{frame}{Решение}
+\begin{frame}{Анализ существующих алгоритмов}
 %\transduration{20}
 \begin{block}{ENS-NDT}
 \begin{itemize}
@@ -176,26 +177,7 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{block}
 \end{frame}
 
-\begin{frame}{Решение}
-%\transduration{20}
-\begin{block}{ENS-NDT-ONE}
-\begin{itemize}
-\item Адаптация алгоритма ENS-NDT
-\begin{itemize}
-\item Структура будет состоять из единственного дерева.
-\item В узлах дерева будет содержаться максимальный ранг на поддереве.
-\begin{itemize}
-  \item Оптимизация на этапе определения ранга точки.
-\end{itemize}
-\end{itemize}
-\end{itemize}
-\begin{center}
-\includegraphics*[height=3.5cm]{pic/ndtree_new.png}
-\end{center}
-\end{block}
-\end{frame}
-
-\begin{frame}{Решение}
+\begin{frame}{Анализ существующих алгоритмов}
 %\transduration{20}
 \begin{block}{Асимптотика}
 \begin{itemize}
@@ -205,18 +187,13 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \item $O(N^{1.43})$ для случано сгенерированных точек в гиперкубе.
 \item В худшем случае $O(MN^{2})$.
 \end{itemize}
-\item ENS-NDT-ONE
-\begin{itemize}
-\item $O(MN^{1.58})$ для случано сгенерированных точек в гиперкубе.
-\item В худшем случае $O(MN^{2})$.
-\end{itemize}
 \end{itemize}
 \end{block}
 \end{frame}
 
 \begin{frame}{Решение}
 %\transduration{20}
-\begin{block}{Гибридизация}
+\begin{block}{Разработка гибридного алгоритма}
   \begin{itemize}
   \item Запускаем алгоритм Divide and Conquer, согласно некоторыем правилам переключаемся на алгоритм ENS-NDT-ONE.
   \item Моменты смены алгоритма:
@@ -236,6 +213,48 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \end{block}
 \end{frame}
 
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Проблемы}
+\begin{itemize}
+\item Алгоритм ENS-NDT не предполагает предпоставленных рангов. 
+\item Монотонности нет, следовательно, вместо бинарного поиска - последовательный.
+\item Время работы гибридного алгоритма сильно возрастает с использованием алгоритма ENS-NDT.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Разработка нового алгоритма ENS-NDT-ONE}
+\begin{itemize}
+\item Алгоритм использует идею алгоритма ENS-NDT.
+\begin{itemize}
+\item Структура будет состоять из единственного дерева, содержащего все точки.
+\item В узлах дерева будет содержаться максимальный ранг на поддереве.
+\begin{itemize}
+  \item Оптимизация на этапе определения ранга точки.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics*[height=3.5cm]{pic/ndtree_new.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}{Решение}
+%\transduration{20}
+\begin{block}{Асимптотика ENS-NDT-ONE}
+\begin{itemize}
+\item $O(MN^{1.58})$ для случано сгенерированных точек в гиперкубе.
+\item В худшем случае $O(MN^{2})$.
+\end{itemize}
+\end{block}
+\end{frame}
+
 \begin{frame}{Решение}
 %\transduration{20}
 \begin{block}{Настройка параметров гибридного алгоритма}
@@ -252,6 +271,7 @@ $\{a, b, c, d\}$ имеет ранг 0, $\{e, f\}$ - ранг 1, $\{g, h, i\}$ -
 \begin{itemize}
 \item Экспериментально получено, что для эффективной работы гибридного алгоритма размер точек в момент переключения на алгоритм ENS-NDT-ONE не должен привышать $10^4 - 2 \cdot 10^4$.
 \item Таким образом, худший случай для алгоритма ENS-NDT-ONE с асимптотикой $O(MN^2)$ незначительно влияет на асимптотику гибридного алгоритма.
+\item Финальная асимптотика гибридного алгоритма ограничена $O(N \log^{M-1}N)$.
 \end{itemize}
 \end{block}
 \end{frame}
@@ -287,8 +307,12 @@ $N$&$M$ & \multicolumn{2}{c|}{D\&C}
 \begin{block}{Выводы}
 \begin{itemize}
 \item Гибридный алгоритм быстрее обоих родительских алгоритмов.
-\item Нам неизвестны публикации результатов сортировки множеств точек размером $10^6$ большой размерности с приемлемым временем выполнения.
-\item Алгоритм адаптирован для многопоточного выполнения, ускорение составляет до $1.8$ на двух потоках и до трех раз на восьми потоках.
+\item Приемлемое временя выполнения на больших множествах точек размером $10^6$.
+\item Алгоритм адаптирован для многопоточного выполнения, ускорение составляет:
+\begin{itemize}
+  \item До $1.8$ на двух потоках.
+  \item До трех раз на восьми потоках.
+\end{itemize}
 \item По результатом этой работы была подготовлена для публикации статья на конференцию на PPSN $2018$, и мы ждем рецензий. 
 \end{itemize}
 \end{block}
