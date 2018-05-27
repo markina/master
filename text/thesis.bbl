@@ -19,222 +19,521 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
+    \entry{Brockhoff}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0b03853d0211be5ed0238adf479bbd92}{%
+           family={Brockhoff},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b959fb824ecd5025d518e70dfbcdc0b8}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{72580d9850e8a3a87c69be87dd45e0d6}
+      \strng{fullhash}{72580d9850e8a3a87c69be87dd45e0d6}
+      \strng{authornamehash}{72580d9850e8a3a87c69be87dd45e0d6}
+      \strng{authorfullhash}{72580d9850e8a3a87c69be87dd45e0d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of Genetic and Evolutionary Computation Conference Companion.}
+      \field{title}{GECCO 2016 tutorial on evolutionary multiobjective optimization.}
+      \field{year}{2016}
+      \field{pages}{201\bibrangedash 227}
+      \range{pages}{27}
+    \endentry
+    \entry{Zhang2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c931af3637695914c2018e4235017422}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d253f5a82a0e6d0787bfb293e3bc5fff}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdbfd2f64d02d497fe386077b6617729}
+      \strng{fullhash}{fdbfd2f64d02d497fe386077b6617729}
+      \strng{authornamehash}{fdbfd2f64d02d497fe386077b6617729}
+      \strng{authorfullhash}{fdbfd2f64d02d497fe386077b6617729}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation.}
+      \field{title}{MOEA/D: A multiobjective evolutionary algorithm based on decomposition.}
+      \field{year}{2007}
+      \field{number}{6}
+      \range{number}{1}
+      \field{pages}{712\bibrangedash 731}
+      \range{pages}{20}
+      \field{volume}{11}
+      \range{volume}{1}
+    \endentry
+    \entry{Zitzler}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e743bd4fcd078e17136eef7206611e4f}{%
+           family={Zitzler},
+           familyi={Z\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=110e45b848c0bbad8240665d6919736c}{%
+           family={Kunzli},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{da5afccbcf09f2678242f5725b237b93}
+      \strng{fullhash}{da5afccbcf09f2678242f5725b237b93}
+      \strng{authornamehash}{da5afccbcf09f2678242f5725b237b93}
+      \strng{authorfullhash}{da5afccbcf09f2678242f5725b237b93}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Parallel Problem Solving from Nature -- PPSN VIII}
+      \field{title}{Indicator-based selection in multiobjective search.}
+      \field{year}{2004}
+      \field{number}{3242}
+      \range{number}{1}
+      \field{pages}{832\bibrangedash 842}
+      \range{pages}{11}
+    \endentry
+    \entry{PESA-II}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2ac227abd75eb4aa82118f36a5b84aee}{%
+           family={Corne},
+           familyi={C\bibinitperiod},
+           given={D.W.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c39c1ef8a61e7e5b0fd833f3de817e69}{%
+           family={Jerram},
+           familyi={J\bibinitperiod},
+           given={N.R.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=24702adf61dea1b3ad6b54279fbb71b2}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers}%
+      }
+      \strng{namehash}{8c4c0958aded11dd4a8982ff58928908}
+      \strng{fullhash}{8c4c0958aded11dd4a8982ff58928908}
+      \strng{authornamehash}{8c4c0958aded11dd4a8982ff58928908}
+      \strng{authorfullhash}{8c4c0958aded11dd4a8982ff58928908}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of Genetic and Evolutionary Computation Conference.}
+      \field{title}{PESA-II: Region-based selection in evolutionary multiobjective optimization.}
+      \field{year}{2001}
+      \field{pages}{283\bibrangedash 290}
+      \range{pages}{8}
+    \endentry
     \entry{NSGA-II}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0d86d36d1f8559f2cf0d19f64ba88bd8}{%
+           family={Pratap},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a8f8b103d55840c9aaeeb076d15cb1fb}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{581a2dc7003fe88d317029ce0c911ac6}
+      \strng{fullhash}{581a2dc7003fe88d317029ce0c911ac6}
+      \strng{authornamehash}{581a2dc7003fe88d317029ce0c911ac6}
+      \strng{authorfullhash}{581a2dc7003fe88d317029ce0c911ac6}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation.}
+      \field{title}{A fast and elitist multi-objective genetic algorithm: NSGA-II.}
+      \field{year}{2002}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{182\bibrangedash 197}
+      \range{pages}{16}
+      \field{volume}{6}
+      \range{volume}{1}
+    \endentry
+    \entry{Deb2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=76ccf6a8fd9ce260dc3b2a64ac181a20}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b901b2a343f0d3d8b52a5b6507c4bdc9}
+      \strng{fullhash}{b901b2a343f0d3d8b52a5b6507c4bdc9}
+      \strng{authornamehash}{b901b2a343f0d3d8b52a5b6507c4bdc9}
+      \strng{authorfullhash}{b901b2a343f0d3d8b52a5b6507c4bdc9}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation.}
+      \field{title}{An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, part I: Solving problems with box constraints.}
+      \field{year}{2013}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{577\bibrangedash 601}
+      \range{pages}{25}
+      \field{volume}{18}
+      \range{volume}{1}
+    \endentry
+    \entry{SPEA2}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e743bd4fcd078e17136eef7206611e4f}{%
+           family={Zitzler},
+           familyi={Z\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6ff50cb9b2a308f7603e94471f7fca95}{%
+           family={Laumanns},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d02a552bea94483dff690e72f5d5c122}{%
+           family={Thiele},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2702379a8b27c1f8a6769cf2582a150}
+      \strng{fullhash}{f2702379a8b27c1f8a6769cf2582a150}
+      \strng{authornamehash}{f2702379a8b27c1f8a6769cf2582a150}
+      \strng{authorfullhash}{f2702379a8b27c1f8a6769cf2582a150}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the EURO-GEN’2001 Conference.}
+      \field{title}{SPEA2: Improving the strength pareto evo- lutionary algorithm for multiobjective optimization.}
+      \field{year}{2001}
+      \field{pages}{91\bibrangedash 100}
+      \range{pages}{10}
+    \endentry
+    \entry{Coello}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b96ccc84acfa92b6c0008750331d4028}{%
+           family={Coello\bibnamedelima Coello},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=030a4cda65e14092eb0085fb4cb41772}{%
+           family={Toscano\bibnamedelima Pulido},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{db6d9a28fa83d614d617d65173eac033}
+      \strng{fullhash}{db6d9a28fa83d614d617d65173eac033}
+      \strng{authornamehash}{db6d9a28fa83d614d617d65173eac033}
+      \strng{authorfullhash}{db6d9a28fa83d614d617d65173eac033}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of International Conference on Evolutionary Multi-Criterion Optimization.}
+      \field{title}{A micro-genetic algorithm for multiob- jective optimization.}
+      \field{year}{2001}
+      \field{number}{1993}
+      \range{number}{1}
+      \field{pages}{126\bibrangedash 140}
+      \range{pages}{15}
+    \endentry
+    \entry{PAES}{article}{}
+      \name{author}{2}{}{%
+        {{hash=24702adf61dea1b3ad6b54279fbb71b2}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ac227abd75eb4aa82118f36a5b84aee}{%
+           family={Corne},
+           familyi={C\bibinitperiod},
+           given={D.W.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{65e5960297d47e75232acfb137d86d58}
+      \strng{fullhash}{65e5960297d47e75232acfb137d86d58}
+      \strng{authornamehash}{65e5960297d47e75232acfb137d86d58}
+      \strng{authorfullhash}{65e5960297d47e75232acfb137d86d58}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Computation.}
+      \field{title}{Approximating the nondominated front using the Pareto archived evolution strategy.}
+      \field{year}{2000}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{149\bibrangedash 172}
+      \range{pages}{24}
+      \field{volume}{8}
+      \range{volume}{1}
+    \endentry
+    \entry{Fonseca}{article}{}
+      \name{author}{2}{}{%
+        {{hash=97a8ff5d1415c00a777c5d157f1a780e}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={C.M.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bc42a1e1f969f8500267041e81d41492}{%
+           family={Fleming},
+           familyi={F\bibinitperiod},
+           given={P.J.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e55f7fdbd5984199638d7278e1a3d36e}
+      \strng{fullhash}{e55f7fdbd5984199638d7278e1a3d36e}
+      \strng{authornamehash}{e55f7fdbd5984199638d7278e1a3d36e}
+      \strng{authorfullhash}{e55f7fdbd5984199638d7278e1a3d36e}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the World Congress of the International Fed- eration of Automatic Control.}
+      \field{title}{Nonlinear system identification with multiobjective genetic algorithm.}
+      \field{year}{1996}
+      \field{pages}{187\bibrangedash 192}
+      \range{pages}{6}
+    \endentry
+    \entry{Jensen}{article}{}
       \name{author}{1}{}{%
+        {{hash=ae297acfe46d15638f2968d41848223a}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae297acfe46d15638f2968d41848223a}
+      \strng{fullhash}{ae297acfe46d15638f2968d41848223a}
+      \strng{authornamehash}{ae297acfe46d15638f2968d41848223a}
+      \strng{authorfullhash}{ae297acfe46d15638f2968d41848223a}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation.}
+      \field{title}{Reducing the run-time complexity of multiobjective EAs: The NSGA-II and other algorithms.}
+      \field{year}{2003}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{503\bibrangedash 515}
+      \range{pages}{13}
+      \field{volume}{7}
+      \range{volume}{1}
+    \endentry
+    \entry{Gustavsson}{article}{}
+      \name{author}{2}{}{%
+        {{hash=635e56a57acd9b796504943bdb2294fc}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8bda57bf4aa484d5a5e6bc2ca2ca398b}{%
+           family={Syberfeldt},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{543e01405820d9a68ee688f2043f0075}
+      \strng{fullhash}{543e01405820d9a68ee688f2043f0075}
+      \strng{authornamehash}{543e01405820d9a68ee688f2043f0075}
+      \strng{authorfullhash}{543e01405820d9a68ee688f2043f0075}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Computation}
+      \field{title}{A new algorithm using the non-dominated tree to improve non-dominated sorting.}
+      \field{year}{2018}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{89\bibrangedash 116}
+      \range{pages}{28}
+      \field{volume}{26}
+      \range{volume}{1}
+    \endentry
+    \entry{Srinivas}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f008123c51d73dcba365a1df2d1f9ad7}{%
+           family={Srinivas},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
         {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{%
            family={Deb},
            familyi={D\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{3b0426e9fc6ff3fc1eaf4286ab054d63}
-      \strng{fullhash}{3b0426e9fc6ff3fc1eaf4286ab054d63}
-      \strng{authornamehash}{3b0426e9fc6ff3fc1eaf4286ab054d63}
-      \strng{authorfullhash}{3b0426e9fc6ff3fc1eaf4286ab054d63}
+      \strng{namehash}{935909b24cd9c30e40f339336c435aaf}
+      \strng{fullhash}{935909b24cd9c30e40f339336c435aaf}
+      \strng{authornamehash}{935909b24cd9c30e40f339336c435aaf}
+      \strng{authorfullhash}{935909b24cd9c30e40f339336c435aaf}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Transactions on Evolutionary Computation}
-      \field{title}{A Fast Elitist Multi-Objective Genetic Algorithm: NSGA-II}
-      \field{year}{2000}
-      \field{pages}{182\bibrangedash 197}
-      \range{pages}{16}
-      \field{volume}{6}
+      \field{journaltitle}{Evolutionary Computation.}
+      \field{title}{Multiobjective optimization using nondominated sorting in genetic algorithms.}
+      \field{year}{1994}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{221\bibrangedash 248}
+      \range{pages}{28}
+      \field{volume}{2}
       \range{volume}{1}
     \endentry
-    \entry{PESA}{article}{}
+    \entry{Schlunz}{article}{}
       \name{author}{1}{}{%
-        {{hash=b92311316eb14ae708fd2a311d835ece}{%
-           family={Corne},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{fullhash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{authornamehash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{authorfullhash}{b92311316eb14ae708fd2a311d835ece}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Parallel Problem Solving from Nature Parallel Problem Solving from Nature VI}
-      \field{title}{The Pareto Envelope-based Selection Algorithm for Multiobjective Optimization}
-      \field{year}{2000}
-      \field{pages}{839\bibrangedash 848}
-      \range{pages}{10}
-    \endentry
-    \entry{PESA-II}{article}{}
-      \name{author}{1}{}{%
-        {{hash=b92311316eb14ae708fd2a311d835ece}{%
-           family={Corne},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Morgan Kaufmann Publishers}%
-      }
-      \strng{namehash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{fullhash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{authornamehash}{b92311316eb14ae708fd2a311d835ece}
-      \strng{authorfullhash}{b92311316eb14ae708fd2a311d835ece}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of Genetic and Evolutionary Com- putation Conference}
-      \field{title}{PESA-II: Region-based Selection in Evolutionary Multiobjective Optimization}
-      \field{year}{2001}
-      \field{pages}{283\bibrangedash 290}
-      \range{pages}{8}
-    \endentry
-    \entry{SPEA2}{article}{}
-      \name{author}{1}{}{%
-        {{hash=e743bd4fcd078e17136eef7206611e4f}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={E.},
+        {{hash=d404b294b379ac6f6f8e3a4110cc0dd0}{%
+           family={Schlunz},
+           familyi={S\bibinitperiod},
+           given={E.B.},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{e743bd4fcd078e17136eef7206611e4f}
-      \strng{fullhash}{e743bd4fcd078e17136eef7206611e4f}
-      \strng{authornamehash}{e743bd4fcd078e17136eef7206611e4f}
-      \strng{authorfullhash}{e743bd4fcd078e17136eef7206611e4f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \strng{namehash}{d404b294b379ac6f6f8e3a4110cc0dd0}
+      \strng{fullhash}{d404b294b379ac6f6f8e3a4110cc0dd0}
+      \strng{authornamehash}{d404b294b379ac6f6f8e3a4110cc0dd0}
+      \strng{authorfullhash}{d404b294b379ac6f6f8e3a4110cc0dd0}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the EUROGEN’2001 Conference}
-      \field{title}{SPEA2: Improving the Strength Pareto Evolutionary Algorithm for Multiobjective Optimization}
-      \field{year}{2001}
-      \field{pages}{91\bibrangedash 100}
-      \range{pages}{10}
-    \endentry
-    \entry{PAES}{article}{}
-      \name{author}{1}{}{%
-        {{hash=15941fe09e44e6c447456d86da4ed173}{%
-           family={Knowles},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{15941fe09e44e6c447456d86da4ed173}
-      \strng{fullhash}{15941fe09e44e6c447456d86da4ed173}
-      \strng{authornamehash}{15941fe09e44e6c447456d86da4ed173}
-      \strng{authorfullhash}{15941fe09e44e6c447456d86da4ed173}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Evolutionary Computation}
-      \field{title}{Approximating the Nondominated Front Using the Pareto Archived Evolution Strategy}
-      \field{year}{2000}
-      \field{pages}{149\bibrangedash 172}
-      \range{pages}{24}
-      \field{volume}{8 no. 2}
-      \range{volume}{-1}
-    \endentry
-    \entry{PDE}{article}{}
-      \name{author}{1}{}{%
-        {{hash=54d9b4c9e9266f626546f2db990f601b}{%
-           family={Abbass},
-           familyi={A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE Press}%
-      }
-      \strng{namehash}{54d9b4c9e9266f626546f2db990f601b}
-      \strng{fullhash}{54d9b4c9e9266f626546f2db990f601b}
-      \strng{authornamehash}{54d9b4c9e9266f626546f2db990f601b}
-      \strng{authorfullhash}{54d9b4c9e9266f626546f2db990f601b}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceed- ings of the Congress on Evolutionary Computation}
-      \field{title}{PDE: A Pareto Frontier Differential Evolution Approach for Multiobjective Optimization Problems}
-      \field{year}{2001}
-      \field{pages}{971\bibrangedash 978}
-      \range{pages}{8}
+      \field{journaltitle}{Ph.D. thesis, Stellenbosch University}
+      \field{title}{Multiobjective in-core fuel management optimisation for nuclear research reactors.}
+      \field{year}{2016}
     \endentry
     \entry{Kung}{article}{}
-      \name{author}{1}{}{%
-        {{hash=83378eeca6f62686e973c7702752693f}{%
+      \name{author}{3}{}{%
+        {{hash=670a5dc07b1196de4ea9bdad2315b308}{%
            family={Kung},
            familyi={K\bibinitperiod},
-           given={H.},
+           given={H.T.},
            giveni={H\bibinitperiod}}}%
+        {{hash=fce145bec5a57852d5b5bc2efd0c7be9}{%
+           family={Luccio},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573ba1a43b9ee1586e86ec22e25abaae}{%
+           family={Preparata},
+           familyi={P\bibinitperiod},
+           given={F.P.},
+           giveni={F\bibinitperiod}}}%
       }
-      \list{publisher}{0}{%
-      }
-      \strng{namehash}{83378eeca6f62686e973c7702752693f}
-      \strng{fullhash}{83378eeca6f62686e973c7702752693f}
-      \strng{authornamehash}{83378eeca6f62686e973c7702752693f}
-      \strng{authorfullhash}{83378eeca6f62686e973c7702752693f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \strng{namehash}{a82a63a6d89e79195563c1d458ce6abb}
+      \strng{fullhash}{a82a63a6d89e79195563c1d458ce6abb}
+      \strng{authornamehash}{a82a63a6d89e79195563c1d458ce6abb}
+      \strng{authorfullhash}{a82a63a6d89e79195563c1d458ce6abb}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of ACM}
-      \field{title}{On Finding the Maxima of a Set of Vectors}
+      \field{title}{On finding the maxima of a set of vectors.}
       \field{year}{1975}
+      \field{number}{4}
+      \range{number}{1}
       \field{pages}{469\bibrangedash 476}
       \range{pages}{8}
-      \field{volume}{22 no. 4}
-      \range{volume}{-1}
+      \field{volume}{22}
+      \range{volume}{1}
     \endentry
-    \entry{Jensen}{article}{}
-      \name{author}{1}{}{%
-        {{hash=fce95c8a5dfd8908a42ee0c2fe59cb85}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
+    \entry{Zhang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=574e95d114a9926a694bb0df46c80726}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2620daee3061b8007202dcc2b5bb0418}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f7df81e278f432fe40abfb44f07ef6f4}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{fce95c8a5dfd8908a42ee0c2fe59cb85}
-      \strng{fullhash}{fce95c8a5dfd8908a42ee0c2fe59cb85}
-      \strng{authornamehash}{fce95c8a5dfd8908a42ee0c2fe59cb85}
-      \strng{authorfullhash}{fce95c8a5dfd8908a42ee0c2fe59cb85}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \strng{namehash}{369bb5f7014680c9fde1a7c60288b380}
+      \strng{fullhash}{369bb5f7014680c9fde1a7c60288b380}
+      \strng{authornamehash}{369bb5f7014680c9fde1a7c60288b380}
+      \strng{authorfullhash}{369bb5f7014680c9fde1a7c60288b380}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Transactions on Evolutionary Computation}
-      \field{title}{Reducing the Run-time Complexity of Multiobjective EAs: The NSGA-II and Other Algorithms}
-      \field{year}{2003}
-      \field{pages}{503\bibrangedash 515}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation.}
+      \field{title}{An Efficient Approach to Nondominated Sorting for Evolutionary Multiobjective Optimization.}
+      \field{year}{2015}
+      \field{pages}{201\bibrangedash 213}
       \range{pages}{13}
-      \field{volume}{7 no. 5}
-      \range{volume}{-1}
     \endentry
     \entry{Forton}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d1f039646bff9396efa3fb23067f121a}{%
+      \name{author}{3}{}{%
+        {{hash=0e53c0b38bbf917042e14f521df3aa09}{%
            family={Fortin},
            familyi={F\bibinitperiod},
-           given={F.},
+           given={F.A.},
            giveni={F\bibinitperiod}}}%
+        {{hash=4e6c6bf0f923ab1ad562d2f91c148005}{%
+           family={Grenier},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4970ca5c9714dd1d3ff2fadd7bfc2f2f}{%
+           family={Parizeau},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {ACM}%
       }
-      \strng{namehash}{d1f039646bff9396efa3fb23067f121a}
-      \strng{fullhash}{d1f039646bff9396efa3fb23067f121a}
-      \strng{authornamehash}{d1f039646bff9396efa3fb23067f121a}
-      \strng{authorfullhash}{d1f039646bff9396efa3fb23067f121a}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \strng{namehash}{cf70452eedd58318d360d5764c6b276d}
+      \strng{fullhash}{cf70452eedd58318d360d5764c6b276d}
+      \strng{authornamehash}{cf70452eedd58318d360d5764c6b276d}
+      \strng{authorfullhash}{cf70452eedd58318d360d5764c6b276d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceeding of Genetic and Evolutionary Computation Conference}
-      \field{title}{Generalizing the Improved Run-time Complexity Algorithm for Non-dominated Sorting}
+      \field{journaltitle}{Proceedings of Genetic and Evo- lutionary Computation Conference.}
+      \field{title}{Generalizing the improved run-time com- plexity algorithm for non-dominated sorting.}
       \field{year}{2013}
       \field{pages}{615\bibrangedash 622}
       \range{pages}{8}
@@ -251,88 +550,147 @@
       \strng{fullhash}{507c0880b8218ebc62746eda9f18cf9d}
       \strng{authornamehash}{507c0880b8218ebc62746eda9f18cf9d}
       \strng{authorfullhash}{507c0880b8218ebc62746eda9f18cf9d}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Con- ference on Parallel Problem Solving from Nature}
-      \field{title}{A Provably Asymptotically Fast Version of the Gen- eralized Jensen Algorithm for Non-Dominated Sorting}
+      \field{journaltitle}{Parallel Problem Solving from Nature – PPSN XIII}
+      \field{title}{A provably asymptotically fast version of the generalized Jensen algorithm for non-dominated sorting.}
       \field{year}{2014}
+      \field{number}{8672}
+      \range{number}{1}
       \field{pages}{528\bibrangedash 537}
       \range{pages}{10}
     \endentry
-    \entry{Roy}{article}{}
-      \name{author}{1}{}{%
-        {{hash=7ebcbb2f3ad82d728aba81d6b1065dce}{%
-           family={Roy\bibnamedelima P.},
-           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={K.\bibnamedelimi Deb},
-           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-           suffix={M.\bibnamedelimi Islam},
-           suffixi={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+    \entry{Cormen}{article}{}
+      \name{author}{3}{}{%
+        {{hash=202c98e9f5028ba4cdf778b001e1ffda}{%
+           family={Cormen},
+           familyi={C\bibinitperiod},
+           given={T.H.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9d8b5374eca34bb955641ed5044dd58a}{%
+           family={Leiserson},
+           familyi={L\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=020e2adb0e3b1487bd05c29082ad0156}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={R.L.},
+           giveni={R\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {URL: http://www.egr.msu.edu/~kdeb/papers/c2016009.pdf}%
-      }
-      \strng{namehash}{7ebcbb2f3ad82d728aba81d6b1065dce}
-      \strng{fullhash}{7ebcbb2f3ad82d728aba81d6b1065dce}
-      \strng{authornamehash}{7ebcbb2f3ad82d728aba81d6b1065dce}
-      \strng{authorfullhash}{7ebcbb2f3ad82d728aba81d6b1065dce}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \strng{namehash}{d9cecd7333ccf1a89814fc2ba41cc274}
+      \strng{fullhash}{d9cecd7333ccf1a89814fc2ba41cc274}
+      \strng{authornamehash}{d9cecd7333ccf1a89814fc2ba41cc274}
+      \strng{authorfullhash}{d9cecd7333ccf1a89814fc2ba41cc274}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Best Order Sort: A New Algorithm to Non-dominated Sorting for Evolutionary Multi-objective Optimization}
-      \field{year}{2016}
+      \field{journaltitle}{MIT Press, Cambridge, Massachusetts.}
+      \field{title}{Introduction to Algorithms, 2nd Ed.}
+      \field{year}{2001}
     \endentry
-    \entry{Gustavsson}{article}{}
-      \name{author}{1}{}{%
-        {{hash=736a3a913189e3c286d8d231e37591d1}{%
-           family={Gustavsson\bibnamedelima P.},
-           familyi={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Syberfeldt\bibnamedelima A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+    \entry{Roy}{article}{}
+      \name{author}{3}{}{%
+        {{hash=89e4a115a2439a8ae143ba2481ead4e6}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=33f3e3739dc72aa8c9a718b515175427}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={M.M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=df5a5b37a49a0efc2943922fa4aa9f13}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{736a3a913189e3c286d8d231e37591d1}
-      \strng{fullhash}{736a3a913189e3c286d8d231e37591d1}
-      \strng{authornamehash}{736a3a913189e3c286d8d231e37591d1}
-      \strng{authorfullhash}{736a3a913189e3c286d8d231e37591d1}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \list{publisher}{2}{%
+        {Proceedings of Genetic}%
+        {Evolutionary Computation Conference Companion.}%
+      }
+      \strng{namehash}{359f025af32df90fb5328ba35c236766}
+      \strng{fullhash}{359f025af32df90fb5328ba35c236766}
+      \strng{authornamehash}{359f025af32df90fb5328ba35c236766}
+      \strng{authorfullhash}{359f025af32df90fb5328ba35c236766}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A New Algorithm Using the Non-dominated Tree to improve Non-dominated Sorting}
-      \field{year}{2017}
+      \field{title}{Best Order Sort: A new algorithm to non- dominated sorting for evolutionary multi-objective optimization.}
+      \field{year}{2016}
+      \field{pages}{1113\bibrangedash 1120}
+      \range{pages}{8}
+    \endentry
+    \entry{Blum}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9dd333a127053c4e4c8b34769192b18a}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=601d3335d660e869a5501f97fe36d9f7}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4d8e90d79da966c7d65a41054ff138c3}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
+      \strng{fullhash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
+      \strng{authornamehash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
+      \strng{authorfullhash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer and System Sciences.}
+      \field{title}{Time bounds for selection.}
+      \field{year}{1973}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{448\bibrangedash 461}
+      \range{pages}{14}
+      \field{volume}{7}
+      \range{volume}{1}
     \endentry
     \entry{Markina}{article}{}
       \name{author}{2}{}{%
-        {{hash=ace9d819376f2cb5432be4c14d829972}{%
-           family={M.},
+        {{hash=ab82cde2e9f32848497c8cf993dde291}{%
+           family={Markina},
            familyi={M\bibinitperiod},
-           given={Markina},
+           given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=33a6af4095837fe6f06add40b528cb7f}{%
-           family={M},
-           familyi={M\bibinitperiod},
-           given={Buzdalov},
-           giveni={B\bibinitperiod}}}%
+        {{hash=507c0880b8218ebc62746eda9f18cf9d}{%
+           family={Buzdalov},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{b536332d1fb5fdc7617197b9f6c24698}
-      \strng{fullhash}{b536332d1fb5fdc7617197b9f6c24698}
-      \strng{authornamehash}{b536332d1fb5fdc7617197b9f6c24698}
-      \strng{authorfullhash}{b536332d1fb5fdc7617197b9f6c24698}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \strng{namehash}{70275689cd3826a117ea5d7440417a1a}
+      \strng{fullhash}{70275689cd3826a117ea5d7440417a1a}
+      \strng{authornamehash}{70275689cd3826a117ea5d7440417a1a}
+      \strng{authorfullhash}{70275689cd3826a117ea5d7440417a1a}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{CoRR}
-      \field{title}{Hybridizing Non-dominated Sorting Algorithms: Divide-and-Conquer Meets Best Order Sort}
+      \field{journaltitle}{Proceedings of Genetic and Evolutionary Computation Conference Companion.}
+      \field{title}{Hybridizing non-dominated sorting algorithms: Divide-and-conquer meets Best Order Sort.}
       \field{year}{2017}
-      \field{volume}{abs/1704.04205}
-      \range{volume}{-1}
+      \field{pages}{153\bibrangedash 154}
+      \range{pages}{2}
     \endentry
   \endsortlist
-  \missing{Zhang}
 \endrefsection
 \endinput
 
