@@ -353,37 +353,6 @@
       \field{volume}{7}
       \range{volume}{1}
     \endentry
-    \entry{Gustavsson}{article}{}
-      \name{author}{2}{}{%
-        {{hash=635e56a57acd9b796504943bdb2294fc}{%
-           family={Gustavsson},
-           familyi={G\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=8bda57bf4aa484d5a5e6bc2ca2ca398b}{%
-           family={Syberfeldt},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{543e01405820d9a68ee688f2043f0075}
-      \strng{fullhash}{543e01405820d9a68ee688f2043f0075}
-      \strng{authornamehash}{543e01405820d9a68ee688f2043f0075}
-      \strng{authorfullhash}{543e01405820d9a68ee688f2043f0075}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Evolutionary Computation}
-      \field{title}{A new algorithm using the non-dominated tree to improve non-dominated sorting.}
-      \field{year}{2018}
-      \field{number}{1}
-      \range{number}{1}
-      \field{pages}{89\bibrangedash 116}
-      \range{pages}{28}
-      \field{volume}{26}
-      \range{volume}{1}
-    \endentry
     \entry{Srinivas}{article}{}
       \name{author}{2}{}{%
         {{hash=f008123c51d73dcba365a1df2d1f9ad7}{%
@@ -627,6 +596,37 @@
       \field{pages}{1113\bibrangedash 1120}
       \range{pages}{8}
     \endentry
+    \entry{Gustavsson}{article}{}
+      \name{author}{2}{}{%
+        {{hash=635e56a57acd9b796504943bdb2294fc}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8bda57bf4aa484d5a5e6bc2ca2ca398b}{%
+           family={Syberfeldt},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{543e01405820d9a68ee688f2043f0075}
+      \strng{fullhash}{543e01405820d9a68ee688f2043f0075}
+      \strng{authornamehash}{543e01405820d9a68ee688f2043f0075}
+      \strng{authorfullhash}{543e01405820d9a68ee688f2043f0075}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Computation}
+      \field{title}{A new algorithm using the non-dominated tree to improve non-dominated sorting.}
+      \field{year}{2018}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{89\bibrangedash 116}
+      \range{pages}{28}
+      \field{volume}{26}
+      \range{volume}{1}
+    \endentry
     \entry{Blum}{article}{}
       \name{author}{3}{}{%
         {{hash=9dd333a127053c4e4c8b34769192b18a}{%
@@ -649,8 +649,8 @@
       \strng{fullhash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
       \strng{authornamehash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
       \strng{authorfullhash}{ae934251d15e5f164f6d7a6c8cf5a2e6}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computer and System Sciences.}
